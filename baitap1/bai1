@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML</title>
+<style>
+	.header{
+		height: 50px;
+		padding: 10px;
+	}
+	.content {
+		display: flex;
+		border: 1px solid rgb(14, 11, 11);
+		border-radius: 5px;
+		}
+	.line {
+		border: 1px solid rgb(12, 8, 20);
+	}
+	.content .content-left {
+		float: left;
+		width: 49%;
+		line-height: 25px;
+	}
+
+	.content .content-right {
+		float: right;
+		width: 49%;
+	}
+	.footer {
+		padding: 10px;
+		display: flex;
+		background-color: rgb(42, 204, 150);
+		color: antiquewhite;
+		justify-content: space-around;
+		}
+	.trailer button {
+		background-color: rgb(72, 75, 221);
+		border: none;
+		color: white;
+		padding: 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 15px;
+		}
+
+	.trailer button:hover {
+		background-color: aqua;
+		}
+	.admin{
+		float: right;
+		}
+	.admin.img{ 
+		margin-right: 10px;
+		border-radius: 50%;
+		vertical-align: middle;
+		}
+	.admin. name {
+		display: inline;
+		color: rgb(26, 100, 211);
+		}
+	.admin .name:hover {
+		color: blanchedalmond;
+		}
+	.image{
+		width: 100%;
+		overflow: hidden;
+		max-height: 500px;
+		}
+	.image img {
+    width: 100%;
+    animation: zoom 10s infinite;
+	}
+	
+</style>
+</head>
+
+<body>
+	<div>
+		<header class="header">
+			<div class="admin"> 
+				<img src="" alt "avatar" style="height:42;width:42;">
+				<p class="name" title="Lại Hợp Hiệu" > Hieu Chua </p>
+			</div>
+		</header>
+		
+		<image class="image">
+			<img src="" alt="Liên quân Mobile">
+		</image>
+		<content class="content">
+		
+			<div class="content-left">
+				<h3>  </h3>
+				<p>  </p>
+			</div>
+			
+			<div class="content-right">
+				<h3> </h3>
+				<p> </p>
+			</div>
+		
+		
+		
+		
+			<div class="trailer">
+				<button id=""> Trailer </button>
+				<a class=" " href=" "> ( Trang chủ ) </a>
+		
+			</div>
+		</content>
+		<footer>
+			<div>
+				<p><b> Trường: Đại học Trần Đại Nghĩa</b></p>
+				<p> Địa chỉ: 196 Nguyễn Oanh, phường 17, Gò Vấp, Tp.Hồ Chí Minh
+				<p> Điên thoại: 0278956015  </p>
+			</div>
+			<div>
+				<p> S3 Corporation (S3 Corp)
+				<p> Email: www.s3corp.com.vn
+				<p title=" Or: +842835471411 "> Phone: +84984238106 </p>
+			</div>
+			<div>
+			
+			</div>
+			
+		</footer>
+</body>
+</html>
