@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML</title>
+<style>
+	.header{
+		height: 50px;
+		padding: 10px;
+	}
+	.content {
+		display: flex;
+		border: 1px solid rgb(14, 11, 11);
+		border-radius: 5px;
+		}
+	.footer {
+		padding: 10px;
+		display: flex;
+		background-color: rgb(42, 204, 150);
+		color: antiquewhite;
+		justify-content: space-around;
+		}
+	.trailer button {
+		background-color: rgb(72, 75, 221);
+		border: none;
+		color: white;
+		padding: 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 15px;
+		}
+
+	.trailer button:hover {
+		background-color: aqua;
+		}
+	.admin{
+		float: right;
+		}
+	.admin.img{ 
+		margin-right: 10px;
+		border-radius: 50%;
+		vertical-align: middle;
+		}
+	.admin. name {
+		display: inline;
+		color: rgb(26, 100, 211);
+		}
+	.admin .name:hover {
+		color: blanchedalmond;
+		}
+		
+</style>
+</head>
+
+<body>
+	<div class="header">
+		
+		<div class="right"> 
+			<img src="" alt "avatar" style="height:42;width:42;">
+			<p cla
+
+
+
+</body>
+</html>
